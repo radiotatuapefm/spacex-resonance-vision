@@ -228,14 +228,23 @@ export default function Home() {
         <div className="container">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">Propulsion Systems Comparison</h2>
-            <p className="text-lg text-muted-foreground">Visual comparison of different propulsion approaches</p>
+            <p className="text-lg text-muted-foreground">Interactive animation showing different propulsion approaches in action</p>
           </div>
           <div className="flex justify-center">
-            <img 
-              src="https://private-us-east-1.manuscdn.com/sessionFile/jXwMItclj098gxWU3V8yQs/sandbox/RyifqW2Qq3T7nMIeCZtMTk-img-1_1770346333000_na1fn_cHJvcHVsc2lvbi1jb21wYXJpc29uLWluZm9ncmFwaGlj.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvalh3TUl0Y2xqMDk4Z3hXVTNWOHlRcy9zYW5kYm94L1J5aWZxVzJRcTNUN25NSWVDWnRNVGstaW1nLTFfMTc3MDM0NjMzMzAwMF9uYTFmbl9jSEp2Y0hWc2MybHZiaTFqYjIxd1lYSnBjMjl1TFdsdVptOW5jbUZ3YUdsai5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=RgsA14d-AMISEhvGDSuD7f9kFGjS8fSIbaX6Ko58wATafJ3jcfSqlxPQcSrZhL2rWnDFU2o3-NLXd7joug2i2VUsiyFWkfPOvTPh9I-UpfveijjzCzS5aEGxNKCxD~vfrDluv9ArpCNwhdF2cRMy2T-advEL2FVhLqqO7Gu5XFZEH9HzGhn9bq71pfrROtSIZ8Fp9BjM6wRNU1SeAxebmRT0OYwE5CzjBbAYghWVCZYN23DKyzv1qlSimf1kRIapU1ZjotF3DobEg-kCPL1D7Dt16WokpZyfIEwZzNg2Gg8~htx0xTSD1WUgSSkkYJKnp-xNnFaDMj~6u9dlxYEP6g__"
-              alt="Propulsion Systems Comparison"
-              className="max-w-4xl mx-auto w-full"
-            />
+            <div className="w-full max-w-4xl rounded-lg overflow-hidden shadow-xl bg-black">
+              <video 
+                width="100%" 
+                height="auto" 
+                controls
+                autoPlay
+                muted
+                loop
+                className="w-full"
+              >
+                <source src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028985193/ggBfSaOIrJYjJvVh.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
       </section>
