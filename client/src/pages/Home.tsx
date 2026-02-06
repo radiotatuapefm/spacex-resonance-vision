@@ -192,12 +192,19 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="relative h-80 rounded-lg overflow-hidden shadow-lg">
-              <img 
-                src="https://private-us-east-1.manuscdn.com/sessionFile/jXwMItclj098gxWU3V8yQs/sandbox/4lcrqXabA2jdDHEgwGaUcP-img-3_1770339172000_na1fn_c3BhY2V4LXJlc29uYW5jZS1jb25jZXB0.png?x-oss-process=image/resize,w_1920,h_1920/format,webp/quality,q_80&Expires=1798761600&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9wcml2YXRlLXVzLWVhc3QtMS5tYW51c2Nkbi5jb20vc2Vzc2lvbkZpbGUvalh3TUl0Y2xqMDk4Z3hXVTNWOHlRcy9zYW5kYm94LzRsY3JxWGFiQTJqZERIRWd3R2FVY1AtaW1nLTNfMTc3MDMzOTE3MjAwMF9uYTFmbl9jM0JoWTJWNExYSmxjMjl1WVc1alpTMWpiMjVqWlhCMC5wbmc~eC1vc3MtcHJvY2Vzcz1pbWFnZS9yZXNpemUsd18xOTIwLGhfMTkyMC9mb3JtYXQsd2VicC9xdWFsaXR5LHFfODAiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE3OTg3NjE2MDB9fX1dfQ__&Key-Pair-Id=K2HSFNDJXOU9YS&Signature=GEPbuei8PTs1noF9pGDt3hDvt0BjlOeuwNpRDXPtvtkGqzC-EIeTEYr-CsRlprWTNANHon3aiOEm7ezlNbbouXuSNiznIDRfqYVCqRFoYh65nKlkKRQ20UjwzDBi-qx-O3uSbRKSQkp~JNGR8m64M5LEeoHlmig-9BAh7HlYaadTkrynYUAuYwqZfUYU-qyG-JMTxnsoEXb1p7u~CuywXfdQ0oEoxh67zZMT52IYiB4MRiej28~Kg2-eGqz7uNCOyaeiAG0ApfWRG3K7oY7WSqUGql4xku3nUrh7XsmWdCnTGRSw1Z~rZm7MIoD1XnKTvr49Gm2T0S5bBD1jo1i0eA__"
-                alt="SpaceX Resonance Concept"
+            <div className="relative h-80 rounded-lg overflow-hidden shadow-lg bg-black">
+              <video 
+                width="100%" 
+                height="auto" 
+                controls
+                autoPlay
+                muted
+                loop
                 className="w-full h-full object-cover"
-              />
+              >
+                <source src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663028985193/HSaciOwaVQbGoXgv.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div className="space-y-6">
               <h3 className="text-2xl font-bold">Applications for SpaceX</h3>
